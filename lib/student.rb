@@ -2,9 +2,9 @@ require_relative "./user.rb"
 
 class Student < User
 
-  def initialize
+  # def initialize
     @knowledge = []
-  end
+  # end
 
   def learn(str)
     @knowledge << strings
@@ -12,6 +12,6 @@ class Student < User
 
   def knowledge
     @knowledge
-  end  
+  end
 
 end
